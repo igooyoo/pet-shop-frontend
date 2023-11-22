@@ -1,0 +1,35 @@
+.root {
+     @apply fixed top-0 z-10 flex w-full flex-col border-b border-accent-3 lg:bottom-0 lg:z-auto lg:w-64 text-accent-1;
+   }
+   
+   .header {
+     @apply flex items-center lg:h-auto px-2 py-5;
+   }
+   
+   .logo {
+     @apply flex w-full items-center gap-x-2.5 ml-2;
+   }
+   
+   .wrapper {
+     @apply overflow-y-auto lg:static lg:block;
+   }
+   
+   .open {
+     @apply fixed inset-x-0 bottom-0 top-14 mt-px bg-primary;
+   }
+   
+   .item {
+     @apply py-1.5 px-2 text-xs font-medium flex justify-between items-center rounded-md text-accent-0 duration-200 transition-all tracking-wider text-white;
+   }
+   .item:hover {
+     @apply border-accent-9 bg-nav-item;
+   }
+   
+   .btn {
+     @apply absolute right-0 top-0 flex h-14 items-center gap-x-2 px-4 lg:hidden;
+   }
+   .nav {
+     @apply space-y-6 px-4 py-5;
+     minheight: calc(100vh - 10rem);
+   }
+   

@@ -1,0 +1,6 @@
+.fit {
+  min-height: calc(100vh - 88px);
+}
+.gradient-bg {
+  @apply bg-gradient-to-r from-[#3494E6] to-[#EC6EAD]
+}
